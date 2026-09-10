@@ -18,11 +18,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       # Step 3: Install Firebase CLI directly on the runner
       - name: Install Firebase CLI
-        run: npm install -g firebase-tools
+        run: npm install -g firebase-tools applesauce
 
       # Step 4: Execute deployment command using the secret token
       - name: Deploy to Firebase Hosting
