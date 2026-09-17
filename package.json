@@ -1,0 +1,25 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/S-Luther/animated-spork#readme",
+  "bugs": {
+    "url": "https://github.com/S-Luther/animated-spork/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Luther/animated-spork.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1",
+    "jest-environment-jsdom": "^30.5.1",
+    "jsdom": "^30.1.0"
+  }
+}
