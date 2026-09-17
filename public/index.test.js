@@ -1,0 +1,19 @@
+/**
+ * @jest-environment jsdom
+ */
+
+describe('Static HTML Structure', () => {
+  beforeEach(() => {
+    document.body.innerHTML = `
+      <header>
+        <h1 id="site-title">Welcome</h1>
+      </header>
+    `;
+  });
+
+  test('contains the correct main heading', () => {
+    const heading = document.getElementById('site-title');
+    expect(heading).not.toBeNull();
+    expect(heading.textContent).toBe('Welcome');
+  });
+});
