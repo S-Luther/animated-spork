@@ -22,7 +22,7 @@ jobs:
 
       # Step 3: Install Firebase CLI directly on the runner
       - name: Install Firebase CLI
-        run: npm install -g firebase-tools applesauce
+        run: npm install -g firebase-tools
 
       # Step 4: Execute deployment command using the secret token
       - name: Deploy to Firebase Hosting
